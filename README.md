@@ -21,13 +21,13 @@ What you get
 Getting started
 ---------------
 
-Before anything else, you need to go and [grab the ColdFusion 10 installer file](https://www.copy.com/s/nhIbHZYZnmPN/ColdFusion%20Repo/10.0.0/ColdFusion_10_WWEJ_linux64.bin):
+Before anything else, you need to go and [grab the ColdFusion 10 installer file from wwww.cfmlrepo.com](http://www.cfmlrepo.com/):
 
 Once you have that you can get started:
 
 - Fork and clone this repository
-- Initalise the submodules with `git submodule init` and `git submodule update`
-- Copy the ColdFusion 1- installer file into `./chef/cookbooks/coldfusion10/files/default/`
+- Initalise the submodules with `git submodule update --init --recursive`
+- Copy the ColdFusion 1_ installer file into `./chef/cookbooks/coldfusion10/files/default/`
 - (with Vagrant installed of course) execute `vagrant up`
 - Wait for the install to finish
 - Visit http://192.168.32.10/ in your browser and you should see a ColdFusion dump of the `server` scope
